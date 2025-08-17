@@ -5,13 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seeker of Caliban</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <img src="img/da-logo-white.png" class="quote-img">
+                    <p class="quote-symbol">„</p>
+                    <p class="quote animate__animated animate__fadeInUp">
+                        <!-- Dynamic paragraph -->
+                    </p>
+                    <p class="quote-author">
+                        - Lion El'Johnson
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="legion">
+            <div class="container">
+                
+            </div>
+        </section>
+        <section class="structure"></section>
+        <section class="characters"></section>
+        <section class="companies"></section>
+        <section class="authors"></section>
+        <section class="feedback"></section>
+    </main>
     <header class="header">
         <div class="container">
             <div class="header-inner">
-                <img src="img/header-logo.png" alt="header-logo" class="header-logo">
+                <img src="img/da-logo.png" alt="header-logo" class="header-logo">
                 <nav class="nav">
                     <ul class="menu-list">
                         <a href="#">
@@ -27,7 +54,7 @@
                             <li class="menu-item">Companies</li>
                         </a>
                         <a href="#">
-                            <li class="menu-item">Authors</li>
+                            <li class="menu-item">Author</li>
                         </a>
                         <a href="#">
                             <li class="menu-item">Feedback</li>
@@ -37,28 +64,6 @@
             </div>
         </div>
     </header>
-
-    <main class="main">
-        <section class="hero">
-            <div class="container">
-                <div class="hero-inner">
-                    <p class="quote">
-                        <!-- Dynamic paragraph -->
-                    </p>
-                    <p class="quote-author">
-                        - Lion El'Johnson
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="legion">
-        </section>
-        <section class="structure"></section>
-        <section class="characters"></section>
-        <section class="companies"></section>
-        <section class="authors"></section>
-        <section class="feedback"></section>
-    </main>
 
     <script>
         let quotes = [
@@ -73,8 +78,13 @@
         let quote = document.querySelector(".quote");
 
         let quote_num = Math.floor(Math.random() * 7);
-        console.log(quote_num);
         quote.textContent = "«" + quotes[quote_num] + "»";
+
+        let quote_author = document.querySelector(".quote-author");
+        setTimeout(() => {
+            quote_author.opacity = 1;
+            quote_author.className = "quote-author animate__animated animate__fadeInUp";
+        }, 1000);
     </script>
 </body>
 </html>
