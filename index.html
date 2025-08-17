@@ -39,13 +39,42 @@
     </header>
 
     <main class="main">
-        <section class="hero"></section>
-        <section class="legion"></section>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <p class="quote">
+                        <!-- Dynamic paragraph -->
+                    </p>
+                    <p class="quote-author">
+                        - Lion El'Johnson
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="legion">
+        </section>
         <section class="structure"></section>
         <section class="characters"></section>
         <section class="companies"></section>
         <section class="authors"></section>
         <section class="feedback"></section>
     </main>
+
+    <script>
+        let quotes = [
+            "Facts are immutable, regardless of who or what perceives them. Power will always belong to the one who knows them.",
+            "Loyalty is its own reward.",
+            "The measure of true glory is not to give battle in the bright noon of war, surrounded by brave comrades upon the field of victory, but to valiantly fight on alone in the darkness, with no hope of aid or even remembrance, and to spit defiance in midnight's eye.",
+            "Insult me again, brother, and theoretically I will punch you in your practical face.",
+            "I failed my father… I fear I also failed my brothers… I do not wish to fail my sons.",
+            "That I was ever, and only, thus. The hunter. The slayer of beasts.",
+            "The offers change. The awnser remains the same."
+        ];
+        let quote = document.querySelector(".quote");
+
+        let quote_num = Math.floor(Math.random() * 7);
+        console.log(quote_num);
+        quote.textContent = "«" + quotes[quote_num] + "»";
+    </script>
 </body>
 </html>
