@@ -73,6 +73,7 @@ section{
     top: 300px;
 }
 .quote-img{
+    user-select: none;
     position: absolute;
     opacity: 2%;
     transform: translate(-50%, -50%);
