@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seeker of Caliban</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/structure_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -15,20 +16,19 @@
                 <div class="hero-inner">
                     <p class="high-quote-symbol">„</p>
                     <p class="low-quote-symbol">“</p>
-                    <!-- <div class="quote-block"> -->
-                        <img src="img/da-logo-white.png" class="quote-img">
-                        <p class="quote animate__animated animate__fadeInUp">
-                            <!-- Dynamic paragraph -->
-                        </p>
-                        <p class="quote-author">
-                            - Lion El'Johnson
-                        </p>
-                    <!-- </div> -->
+                    <img src="img/da-logo-white.png" class="quote-img">
+                    <p class="quote animate__animated animate__fadeInUp">
+                        <!-- Dynamic paragraph -->
+                    </p>
+                    <p class="quote-author">
+                        - Lion El'Johnson
+                    </p>
                 </div>
             </div>
         </section>
         <section class="legion">
             <div class="container">
+                <div id="legion"></div>
                 <div class="legion-inner">
                     <p class="legion-text">
                         The Dark Angels, known in High Gothic as Angelis Tenebraium, have the honour of being the first Space Marine Legion created by The Emperor of Mankind.
@@ -97,7 +97,67 @@
         <section class="structure">
             <div class="container">
                 <div class="structure-inner">
-                    <h1 class="section-head">Structure</h1>
+                    <div id="structure"></div>
+                    <div class="structure-block">
+                        <h2>Primarch</h2>
+                        <h3>Lion's Seneschal</h3>
+                        <div class="three-trees">
+                            <div class="structure-tree">
+                                <img src="img/hexa.png" alt="Hexagrammaton" class="structure-img">
+                                <h3>Hexagrammaton</h3>
+                                <div class="structure-list">
+                                    <p class="wing">Deathwing</p>
+                                    <p class="wing">Ravenwing</p>
+                                    <p class="wing">Dreadwing</p>
+                                    <p class="wing">Ironwing</p>
+                                    <p class="wing">Firewing</p>
+                                    <p class="wing">Stormwing</p>
+                                </div>
+                            </div>
+                            <div class="structure-tree">
+                                <img src="img/orders.png" alt="Hexagrammaton" class="structure-img">
+                                <h3>Orders of the Hekatonystika</h3>
+                                <div class="structure-list">
+                                    <p class="order">The Five Hundred Companions</p>
+                                    <p class="order">The Order of Caliban</p>
+                                    <p class="order">Order of Annihilation</p>
+                                    <p class="order">Order of Bloody Shrouds</p>
+                                    <p class="order">Order of Broken Claws</p>
+                                    <p class="order">Order of Broken Wings</p>
+                                    <p class="order">Order of the Crimson Field</p>
+                                    <p class="order">Order of the Empty Sky</p>
+                                    <p class="order">Order of Extinction</p>
+                                    <p class="order">Order of Santales</p>
+                                    <p class="order">Order of Shattered Crowns</p>
+                                    <p class="order">Order of the Argent Spire</p>
+                                    <p class="order">Order of the Broken Spears</p>
+                                    <p class="order">Order of the Shattered Mantle</p>
+                                    <p class="order">Order of the Shattered Spectrey</p>
+                                    <p class="order">Order of the Three Keys</p>
+                                </div>
+                            </div>
+                            <div class="structure-tree">
+                                <img src="img/hosts.png" alt="Hexagrammaton" class="structure-img">
+                                <h3>Hosts of the First Legion</h3>
+                                <div class="structure-list">
+                                    <p class="host">1st Host</p>
+                                    <p class="host">3rd Host</p>
+                                    <p class="host">Host of Blades</p>
+                                    <p class="host">Host of Bone</p>
+                                    <p class="host">Host of Crowns</p>
+                                    <p class="host">Host of Death</p>
+                                    <p class="host">Host of Fire</p>
+                                    <p class="host">Host of Iron</p>
+                                    <p class="host">Host of Pentacles</p>
+                                    <p class="host">Host of Stone</p>
+                                    <p class="host">Host of the Void</p>
+                                    <p class="host">Host of Wind</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </section>
@@ -109,13 +169,13 @@
     <header class="header">
         <div class="container">
             <div class="header-inner">
-                <img src="img/da-logo.png" alt="header-logo" class="header-logo">
+                <a href="#"><img src="img/da-logo.png" alt="header-logo" class="header-logo"></a>
                 <nav class="nav">
                     <ul class="menu-list">
-                        <a href="#">
+                        <a href="#legion">
                             <li class="menu-item">Legion</li>
                         </a>
-                        <a href="#">
+                        <a href="#structure">
                             <li class="menu-item">Structure</li>
                         </a>
                         <a href="#">
