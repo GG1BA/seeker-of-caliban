@@ -7,7 +7,7 @@
 #structure{
     padding: 25px 0;
 }
-.structure-block h2, .structure-block div{
+.structure-block h2, .structure-tree{
     margin: 15px 0;
 }
 
@@ -19,7 +19,28 @@
     width: 80%;
 }
 
+.tree-line-block{
+    display: flex;
+    justify-content: center;
+    width: 888px;
+    flex-wrap: wrap;
+    margin-top: 20px
+}
+.tree-line{
+    border: 1px solid #dddddd;
+    margin: 0 120px;
+}
+.line-horizontal{
+    width: 98%;
+    transform: translate(0, 5px);
+}
+.line-vertical{
+    width: 50px;
+    transform: rotate(90deg) translate(30px);
+}
+
 .structure-tree{
+    margin-top: 55px;
     display: flex;
     flex-direction: column;
     justify-content: center;
