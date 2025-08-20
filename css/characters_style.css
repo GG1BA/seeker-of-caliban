@@ -1,0 +1,27 @@
+.characters-inner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.heroes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.character{
+    margin: 15px 0;
+    padding: 15px;
+    width: 30%;
+    border: 1px solid #1f1f1f;
+}
+.char-img{
+    height: 128px;
+    width: 128px;
+}
+
+#lion{
+    border: 1px solid gold;
+}
+#lion h2, #lion h3, #lion p{
+    color: gold;
+}

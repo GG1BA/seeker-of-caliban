@@ -36,7 +36,7 @@ body{background-color: #161616}
     width: 64px;
 }
 .header-logo:hover{
-    filter: brightness(0);
+    filter: brightness(50%);
 }
 .menu-list{
     display: flex;
