@@ -1,0 +1,16 @@
+.campaigns-inner{
+    text-align: center;
+}
+.campaign-list{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.campaign{
+    padding: 15px;
+    margin: 15px 0;
+    width: 30%;
+    border: 1px solid #1d1d1d;
+}
