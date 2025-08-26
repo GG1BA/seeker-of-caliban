@@ -16,8 +16,6 @@ function Hero() {
   let quote_paragraph = (
     <p className="quote animate__animated animate__fadeInUp">«{quote}»</p>
   );
-  let timer: number = 0;
-  setTimeout(() => (timer = 1), 1000);
 
   return (
     <div className="hero-inner">
