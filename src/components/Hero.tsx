@@ -18,10 +18,11 @@ function Hero() {
   );
   let timer: number = 0;
   setTimeout(() => (timer = 1), 1000);
+
   return (
     <div className="hero-inner">
-      <p className="high-quote-symbol">„</p>
-      <p className="low-quote-symbol">“</p>
+      <p className="high-quote-symbol">“</p>
+      <p className="low-quote-symbol">„</p>
       <img src="./src/assets/da-logo-white.png" className="quote-img" />
       {quote_paragraph}
       <p className="quote-author animate__animated animate__fadeInUp">

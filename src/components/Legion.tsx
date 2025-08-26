@@ -110,9 +110,11 @@ function Legion() {
         section from the legend upon first seeing Astartes descending using jump
         packs:
       </p>
-      <p className="quote">
-        «And the angels of darkness descended upon pinions of fire and
-        light...the great and terrible dark angels.»
+      <p className="legion-text">
+        <i>
+          «And the angels of darkness descended upon pinions of fire and
+          light...the great and terrible dark angels.»
+        </i>
       </p>
     </div>
   );
