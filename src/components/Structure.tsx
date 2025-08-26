@@ -15,7 +15,7 @@ function Structure() {
         <div className="three-trees">
           <div className="structure-tree">
             <img
-              src="./src/assets/hexa.png"
+              src="/hexa.png"
               alt="Hexagrammaton"
               className="structure-img"
             />
@@ -30,11 +30,7 @@ function Structure() {
             </div>
           </div>
           <div className="structure-tree">
-            <img
-              src="./src/assets/orders.png"
-              alt="Hexagrammaton"
-              className="structure-img"
-            />
+            <img src="/orders.png" alt="Orders" className="structure-img" />
             <h3>Orders of the Hekatonystika</h3>
             <div className="structure-list">
               <p className="order">The Five Hundred Companions</p>
@@ -56,11 +52,7 @@ function Structure() {
             </div>
           </div>
           <div className="structure-tree">
-            <img
-              src="./src/assets/hosts.png"
-              alt="Hexagrammaton"
-              className="structure-img"
-            />
+            <img src="/hosts.png" alt="Hosts" className="structure-img" />
             <h3>Hosts of the First Legion</h3>
             <div className="structure-list">
               <p className="host">1st Host</p>

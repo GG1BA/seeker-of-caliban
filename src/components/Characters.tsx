@@ -6,57 +6,37 @@ function Characters() {
       <h1>Heroes of the First</h1>
       <div className="heroes">
         <div className="character" id="lion">
-          <img src="./src/assets/lion_golden.png" alt="" className="char-img" />
+          <img src="/lion_golden.png" alt="" className="char-img" />
           <h2>Lion El'Johnson</h2>
           <h3>The Primarch</h3>
           <p></p>
         </div>
         <div className="character">
-          <img
-            src="./src/assets/corswain_white.png"
-            alt=""
-            className="char-img"
-          />
+          <img src="/corswain_white.png" alt="" className="char-img" />
           <h2>Corswain</h2>
           <h3>The Lion's Seneschal</h3>
           <p></p>
         </div>
         <div className="character">
-          <img
-            src="./src/assets/holguin_white.png"
-            alt=""
-            className="char-img"
-          />
+          <img src="/holguin_white.png" alt="" className="char-img" />
           <h2>Holguin</h2>
           <h3>Master of the Deathwing</h3>
           <p></p>
         </div>
         <div className="character">
-          <img
-            src="./src/assets/redloss_white.png"
-            alt=""
-            className="char-img"
-          />
+          <img src="/redloss_white.png" alt="" className="char-img" />
           <h2>Farith Redloss</h2>
           <h3>Master of the Dreadwing</h3>
           <p></p>
         </div>
         <div className="character">
-          <img
-            src="./src/assets/aloceri_white.png"
-            alt=""
-            className="char-img"
-          />
+          <img src="/aloceri_white.png" alt="" className="char-img" />
           <h2>Aloceri</h2>
           <h3>Master of the Ravenwing</h3>
           <p></p>
         </div>
         <div className="character">
-          <img
-            src="./src/assets/nemiel_white.png"
-            alt=""
-            className="char-img"
-          />
+          <img src="/nemiel_white.png" alt="" className="char-img" />
           <h2>Nemiel</h2>
           <h3>Chaplain</h3>
           <p></p>

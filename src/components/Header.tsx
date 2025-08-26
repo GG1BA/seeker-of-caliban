@@ -4,11 +4,7 @@ function Header() {
   return (
     <div className="header-inner">
       <a href="#">
-        <img
-          src="./src/assets/da-logo.png"
-          alt="header-logo"
-          className="header-logo"
-        />
+        <img src="/da-logo.png" alt="header-logo" className="header-logo" />
       </a>
       <nav className="nav">
         <ul className="menu-list">
