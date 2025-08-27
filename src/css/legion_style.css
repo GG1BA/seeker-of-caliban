@@ -1,13 +1,24 @@
 
-#legion{
-    padding: 100px 0;
-}
 .legion-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 35px;
     padding: 15px 15px 65px 15px;
     border: 2px solid #dddddd;
 }
 .legion-text{
     font-size: 18px;
     margin: 50px 0;
-    text-align: center;
+}
+
+
+
+@media (max-width: 1250px){
+    .legion-text{
+        max-width: 70%;
+        font-size: 14px;
+    }
 }

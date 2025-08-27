@@ -16,25 +16,25 @@ function App() {
         </section>
         <section className="legion">
           <div className="container">
-            <div id="legion"></div>
+            <div id="legion" className="linkID"></div>
             <Legion />
           </div>
         </section>
         <section className="structure">
           <div className="container">
-            <div id="structure"></div>
+            <div id="structure" className="linkID"></div>
             <Structure />
           </div>
         </section>
         <section className="characters">
           <div className="container">
-            <div id="characters"></div>
+            <div id="characters" className="linkID"></div>
             <Characters />
           </div>
         </section>
         <section className="campaigns">
           <div className="container">
-            <div id="campaigns"></div>
+            <div id="campaigns" className="linkID"></div>
             <Campaigns />
           </div>
         </section>

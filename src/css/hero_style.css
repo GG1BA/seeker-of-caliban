@@ -21,6 +21,7 @@
     position: absolute;
     font-size: 128px;
     color: #1f1f1f;
+    top: 7%;
     left: 20%;
     bottom: 100%;
 }.low-quote-symbol{
@@ -30,14 +31,34 @@
     font-size: 128px;
     color: #1f1f1f;
     right: 20%;
+    top: 40%;
 }
 .quote-img{
     position: absolute;
     user-select: none;
     opacity: 2%;
     transform: translate(-50%, -50%);
-    top: 5%;
+    top: 30%;
     left: 50%;
-    max-width: 640px;
-    max-height: 640px;
+}
+
+
+
+@media (max-width: 1250px){
+    .hero-inner{
+        display: flex;
+        justify-content: center;
+    }
+    .quote{
+        max-width: 70%;
+    }
+    .quote-img{
+        height: 50%;
+    }
+    .high-quote-symbol{
+        top: 7%;
+    }
+    .low-quote-symbol{
+        top: 40%;
+    }
 }

@@ -3,9 +3,6 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-#characters{
-    padding: 50px 0;
-}
 .heroes{
     display: flex;
     justify-content: space-around;
@@ -35,4 +32,13 @@
 }
 #lion img{
     border: 1px solid gold;
+}
+
+
+
+@media (max-width: 1250px){
+    .character{
+        padding: 0.2%;
+        margin: 4%;
+    }
 }

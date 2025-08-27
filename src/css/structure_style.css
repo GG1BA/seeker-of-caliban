@@ -2,10 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 45px;
-}
-#structure{
-    padding: 25px 0;
+    padding: 5%;
 }
 .structure-block h2, .structure-tree{
     margin: 15px 0;
@@ -22,9 +19,9 @@
 .tree-line-block{
     display: flex;
     justify-content: center;
-    width: 888px;
+    width: 90%;
     flex-wrap: wrap;
-    margin-top: 20px
+    margin-top: 20px;
 }
 .tree-line{
     border: 1px solid #dddddd;
@@ -47,17 +44,25 @@
     align-items: center;
     border: 1px solid #dddddd;
     width: 30%;
+    padding: 1%;
 }
 
 .structure-tree h3{
-    margin: 15px;
+    margin: 1%;
 }
 
 .structure-img{
-    height: 128px;
-    width: 128px;
+    height: 100px;
+    width: 100px;
 }
 
 .structure-tree p{
-    margin: 5px;
+    margin: 1%;
+}
+
+
+
+
+@media (max-width: 1250px){
+
 }

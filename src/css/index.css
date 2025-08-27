@@ -10,15 +10,22 @@
 
 html{scroll-behavior: smooth}
 
-body{background-color: #161616}
+body{
+    background-color: #161616;
+}
 
 .container{
+    display: flex;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 section{
     padding-bottom: 20px;
-    /* border-bottom: 1px solid #1f1f1f; */
     margin: 100px 0;
+}
+
+.linkID{
+    margin: -100px 0;
 }

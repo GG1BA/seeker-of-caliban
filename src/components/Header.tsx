@@ -20,12 +20,12 @@ function Header() {
           <a href="#campaigns">
             <li className="menu-item">Campaigns</li>
           </a>
-          <a href="#">
+          {/* <a href="#">
             <li className="menu-item">Author</li>
           </a>
           <a href="#">
             <li className="menu-item">Feedback</li>
-          </a>
+          </a> */}
         </ul>
       </nav>
     </div>
