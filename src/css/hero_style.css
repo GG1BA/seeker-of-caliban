@@ -1,64 +1,54 @@
 .hero-inner{
-    position: relative;
-    height: 100vh;
-    padding: 0;
-}
-.quote{
-    margin-top: 30%;
-    font-size: 18px;
-    font-style: italic;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    height: 100vh;
 }
-.quote-author{
-    position: absolute;
-    top: 40%;
-    left: 75%;
-    opacity: 0;
-}
-.high-quote-symbol{
-    user-select: none;
+
+.quote-symbol{
+    font-size: 128px;
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
-    font-size: 128px;
-    color: #1f1f1f;
-    top: 7%;
-    left: 20%;
-    bottom: 100%;
-}.low-quote-symbol{
-    user-select: none;
-    font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    font-size: 128px;
-    color: #1f1f1f;
-    right: 20%;
-    top: 40%;
+    opacity: 5%;
 }
+.high{
+    top: 30%;
+    left: 30%;
+}
+.low{
+    top: 70%;
+    right: 30%;
+}
+
 .quote-img{
     position: absolute;
-    user-select: none;
     opacity: 2%;
-    transform: translate(-50%, -50%);
-    top: 30%;
-    left: 50%;
 }
 
-
-
+@media (max-height: 900px){
+    .high{
+        top: 20%;
+    }
+}
+@media (max-height: 600px){
+    .quote-img{
+        width: 350px;
+        height: 350px;
+    }
+}
 @media (max-width: 1250px){
     .hero-inner{
-        display: flex;
-        justify-content: center;
+        margin-top: -10%;
     }
-    .quote{
-        max-width: 70%;
+    .high{
+        /* top: 20%; */
+        left: 15%;
     }
-    .quote-img{
-        height: 50%;
-    }
-    .high-quote-symbol{
-        top: 7%;
-    }
-    .low-quote-symbol{
-        top: 40%;
+    .low{
+        top: 60%;
+        right: 15%;
     }
 }

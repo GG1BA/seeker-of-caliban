@@ -19,8 +19,8 @@ function Hero() {
 
   return (
     <div className="hero-inner">
-      <p className="high-quote-symbol">“</p>
-      <p className="low-quote-symbol">„</p>
+      <p className="high quote-symbol">“</p>
+      <p className="low quote-symbol">„</p>
       <img src="/da-logo-white.png" className="quote-img" />
       {quote_paragraph}
       <p className="quote-author animate__animated animate__fadeInUp">
