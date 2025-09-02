@@ -1,136 +1,130 @@
 import "../css/characters_style.css";
+import CharacterBlock from "./CharacterBlock.tsx";
 
 function Characters() {
   return (
     <div className="characters-inner">
       <h1>Heroes of the First</h1>
       <div className="heroes">
-        <div className="character" id="lion">
-          <img src="/lion_golden.png" alt="" className="char-img" />
-          <h2>Lion El'Johnson</h2>
-          <h3>The Primarch</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <img src="/corswain_white.png" alt="" className="char-img" />
-          <h2>Corswain</h2>
-          <h3>The Lion's Seneschal</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <img src="/holguin_white.png" alt="" className="char-img" />
-          <h2>Holguin</h2>
-          <h3>Master of the Deathwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <img src="/redloss_white.png" alt="" className="char-img" />
-          <h2>Farith Redloss</h2>
-          <h3>Master of the Dreadwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <img src="/aloceri_white.png" alt="" className="char-img" />
-          <h2>Aloceri</h2>
-          <h3>Master of the Ravenwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <img src="/nemiel_white.png" alt="" className="char-img" />
-          <h2>Nemiel</h2>
-          <h3>Chaplain</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Hector Thrane</h2>
-          <h3>Grandmaster of the First Legion</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Urian Vendraig</h2>
-          <h3>Grandmaster of the First Legion</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Titus</h2>
-          <h3>Master of the Ironwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Calosson</h2>
-          <h3>Master of the Stormwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Vastael</h2>
-          <h3>Master of the Firewing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Stenius</h2>
-          <h3>Captain of the Invincible Reason</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Alajos</h2>
-          <h3>Master of the 9th Order</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Tragan</h2>
-          <h3>Master of the 9th Order</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Belat</h2>
-          <h3>Master of the Ravenwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Dareil</h2>
-          <h3>Master of the Ironwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Griffayn</h2>
-          <h3>Master of the Firewing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Marduk Sedras</h2>
-          <h3>Dreadwing Eskaton</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Elikas</h2>
-          <h3>Chief Librarian</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Zediel Ardaral</h2>
-          <h3>Proctor of the Stormwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Coriolanus</h2>
-          <h3>Marshal of Host of Stone</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Idravain Mors</h2>
-          <h3>Seneschal of the Deathwing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Alais Decur</h2>
-          <h3>Knight-Sergeant of the Firewing</h3>
-          <p></p>
-        </div>
-        <div className="character">
-          <h2>Oramas</h2>
-          <h3>Archon of Flame</h3>
-          <p></p>
-        </div>
+        <CharacterBlock
+          image="/lion_golden.png"
+          name="Lion El'Johnson"
+          description=""
+          id="lion"
+          rank="The Primarch"
+        />
+        <CharacterBlock
+          image="/corswain_white.png"
+          name="Corswain"
+          description=""
+          rank="The Lion's Seneschal"
+        />
+        <CharacterBlock
+          image="/holguin_white.png"
+          name="Holguin"
+          description=""
+          rank="Master of the Deathwing"
+        />
+        <CharacterBlock
+          image="/redloss_white.png"
+          name="Farith Redloss"
+          description=""
+          rank="Master of the Dreadwing"
+        />
+        <CharacterBlock
+          image="/aloceri_white.png"
+          name="Aloceri"
+          description=""
+          rank="Master of the Ravenwing"
+        />
+        <CharacterBlock
+          image="/nemiel_white.png"
+          name="Nemiel"
+          description=""
+          rank="Chaplain"
+        />
+        <CharacterBlock
+          name="Hector Thrane"
+          rank="Grandmaster of the First Legion"
+          description=""
+        />
+        <CharacterBlock
+          name="Urian Vendraig"
+          rank="Grandmaster of the First Legion"
+          description=""
+        />
+        <CharacterBlock
+          name="Titus"
+          rank="Master of the Ironwing"
+          description=""
+        />
+        <CharacterBlock
+          name="Calosson"
+          rank="Master of the Stormwing"
+          description=""
+        />
+        <CharacterBlock
+          name="Vastael"
+          rank="Master of the Firewing"
+          description=""
+        />
+        <CharacterBlock
+          name="Stenius"
+          rank="Captain of the Invincible Reason"
+          description=""
+        />
+        <CharacterBlock
+          name="Alajos"
+          rank="Master of the 9th Order"
+          description=""
+        />
+        <CharacterBlock
+          name="Tragan"
+          rank="Master of the 9th Order"
+          description=""
+        />
+        <CharacterBlock
+          name="Belat"
+          rank="Master of the Ravenwing"
+          description=""
+        />
+        <CharacterBlock
+          name="Dareil"
+          rank="Master of the Ironwing"
+          description=""
+        />
+        <CharacterBlock
+          name="Griffayn"
+          rank="Master of the Firewing"
+          description=""
+        />
+        <CharacterBlock
+          name="Marduk Sedras"
+          rank="Dreadwing Eskaton"
+          description=""
+        />
+        <CharacterBlock name="Elikas" rank="Chief Librarian" description="" />
+        <CharacterBlock
+          name="Zediel Ardaral"
+          rank="Proctor of the Stormwing"
+          description=""
+        />
+        <CharacterBlock
+          name="Coriolanus"
+          rank="Marshal of Host of Stone"
+          description=""
+        />
+        <CharacterBlock
+          name="Idravain Mors"
+          rank="Seneschal of the Deathwing"
+          description=""
+        />
+        <CharacterBlock
+          name="Alais Decur"
+          rank="Knight-Sergeant of the Firewing"
+          description=""
+        />
+        <CharacterBlock name="Oramas" rank="Archon of Flame" description="" />
       </div>
     </div>
   );
