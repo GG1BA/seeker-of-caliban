@@ -42,3 +42,9 @@
         margin: 4%;
     }
 }
+@media (max-width: 724px){
+    .character{
+        width: 100%;
+        border: none;
+    }
+}

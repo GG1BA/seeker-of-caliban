@@ -28,15 +28,24 @@
     opacity: 2%;
 }
 
+@media (max-height: 600px){
+    .quote-img{
+        width: 350px;
+        height: 350px;
+    }
+}
 @media (max-height: 900px){
     .high{
         top: 20%;
     }
 }
-@media (max-height: 600px){
+@media (max-width: 600px){
     .quote-img{
         width: 350px;
         height: 350px;
+    }
+    .high{
+        top: 35%;
     }
 }
 @media (max-width: 1250px){

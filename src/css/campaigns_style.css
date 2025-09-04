@@ -14,3 +14,9 @@
     width: 30%;
     border: 1px solid #1d1d1d;
 }
+
+@media (max-width: 500px){
+    .campaign{
+        width: 100%;
+    }
+}
